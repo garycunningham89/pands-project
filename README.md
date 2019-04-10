@@ -11,7 +11,7 @@ will be well conceived, and examples of interesting analyses that others have pu
 based on the data set will be discussed.
 Note that the point of this project is to use Python. You may use any Python
 libraries that you wish, whether they have been discussed in class or not. You should
-not be thinking of using spreadsheet software like Excel to do your calculations.
+not be thinking of using spreadsheet software like Excel to do your calculations. 
 
 Creator: R.A. Fisher 
 Donor: Michael Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)
@@ -22,7 +22,7 @@ Structure
 
 1. Introduction
 
-Ronald Aylmer Fisher's data set has been consulted in a vast range of articles and disciplines as noticeable during initial research. Ronald Fisher, himself was an English statistic-driven, genetic biologist who compiled the Iris Data Set as per this study. The 1936 study titled "The use of multiple measurements in taxonomic problems" portrayed data on three different Iris species;- Iris Setosa, Iris Virginica and Iris Versicolor. The data compiled comprised of four features of each species, i.e. sepal length, sepal width, petal length and petal width. The total flowers contained in the data set were 150, split into 50 of each of the three species. All of the attribue information was measured in cm. The data set characteristics are summarised in the folling list(Fisher, 1936, adapted from UCI Machine Learning Repository, Iris):
+Ronald Aylmer Fisher's data set has been consulted in a vast range of articles and disciplines as noticeable during initial research. Ronald Fisher, himself was an English statistic-driven, genetic biologist who compiled the Iris Data Set as per this study. The 1936 study titled "The use of multiple measurements in taxonomic problems" portrayed data on three different Iris species;- Iris Setosa, Iris Virginica and Iris Versicolor. The data compiled comprised of four features of each species, i.e. sepal length, sepal width, petal length and petal width. The total flowers contained in the data set were 150, split into 50 of each of the three species. All of the attribute information was measured in cm. The data set characteristics are summarized in the following list(Fisher, 1936, adapted from UCI Machine Learning Repository, Iris):
 
 Classes: 3 - Species - Setosa, Virginica, Veriscolor.
 No of Inputs: 150 - 50 of each class above.
@@ -30,8 +30,7 @@ Number of Attributes: 4 - Sepal Length, Sepal Width, Petal Length, Petal Width.
 Attribute Measurement: cm.
 Analysis Type: Multivariate
 
-The multivariate analysis type allows a range of measurement techniques on this data set as there are more than one varibale and those variables are correlated (Olkin and Sampson, 2001).
-
+The multivariate analysis type allows a range of measurement techniques on this data set as there are more than one variable and those variables are correlated (Olkin and Sampson, 2001). The intention of this project is to firstly, upload the data set, compile various calculations (using the Python programming language) of each variable of the data set and summarize the results with the aid of tables and diagrams where required.
 
 2. Body
 3. Conclusion(s)/Discussion
@@ -51,14 +50,14 @@ See above.
 
 Cross check the excel and confirm data set for next stage.
 
-4. Summarise the data set by, for example, calculating the maximum, minimum and
+4. Summarize the data set by, for example, calculating the maximum, minimum and
 mean of each column of the data set. A Python script will quickly do this for you.
 
-Summarise using python when fully understood.
+Summarize using python when fully understood.
 
 5. Write a summary of your investigations.
 
-Summarise in written form the understanding after doing 1-4.
+Summarize in written form the understanding after doing 1-4.
 
 6. Include supporting tables and graphics as you deem necessary 
 
@@ -72,7 +71,7 @@ https://www.python.org/
 https://www.w3schools.com
 3.	GMIT. Quality assurance framework.
 https://www.gmit.ie/general/quality-assurance-framework
-4. R. A. Fisher (1936) The use of multiple measurements in taxonomic problems.
+4. R. A. Fisher (1936) The use of multiple measurements in taxonomic problems. The Annals of Eugenics (1935-1954).
 accessed online at: https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 4.	UC Irvine Machine Learning Repository: Iris data set.
 https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
