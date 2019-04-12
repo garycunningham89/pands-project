@@ -69,24 +69,33 @@ Reference List
 https://www.python.org/
 2.	w3Schools.com Tutorials.
 https://www.w3schools.com
-3.	GMIT. Quality assurance framework.
+3. Python by Programiz Tutorials.
+https://www.programiz.com/
+4.	GMIT. Quality assurance framework.
 https://www.gmit.ie/general/quality-assurance-framework
-4. R. A. Fisher (1936) The use of multiple measurements in taxonomic problems. The Annals of Eugenics (1935-1954).
-accessed online at: https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
-4.	UC Irvine Machine Learning Repository: Iris data set.
+5. R. A. Fisher (1936) The use of multiple measurements in taxonomic problems. The Annals of Eugenics (1935-1954).
+Accessed online at: https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
+6.	UC Irvine Machine Learning Repository: Iris data set.
 https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 https://archive.ics.uci.edu/ml/datasets/iris
-5. S. M. Moerane (2016) Learning R on iris.
-https://rpubs.com/moeransm/intro-iris.
-6. I. Olkin and A.R. Sampson(2001) Multivariate Analysis: Overview, in International Encyclopedia of the Social & Behavioral Sciences.
-https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
-6. Excel File showing Iris Data Set for comparison
-https://www.saedsayad.com/datasets/Iris.xls
-7. Dickerson (2016) Fisher's Irises.
-https://rstudio-pubs-static.s3.amazonaws.com/205883_b658730c12d14aa6996fe2f6c612c65f.html
-8. Wikipedia: Introduction to Fisher's Iris Data Set.
-https://en.wikipedia.org/wiki/Iris_flower_data_set
-9. https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
-10. https://datahub.io/machine-learning/iris
-11. http://statweb.stanford.edu/~jtaylo/courses/stats202/visualization.html
-12. https://rpubs.com/nandong/imlp-ch1-iris - Introduction to Iris Data set by rPubs.
+7. I. Olkin and A.R. Sampson(2001) Multivariate Analysis: Overview, in International Encyclopedia of the Social & Behavioral Sciences.
+Accessed online at: https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
+8. Excel File showing Iris Data Set for comparison
+Accessed online at: : https://www.saedsayad.com/datasets/Iris.xls
+9. Dickerson (2016) Fisher's Irises.
+accessed online at: https://rstudio-pubs-static.s3.amazonaws.com/205883_b658730c12d14aa6996fe2f6c612c65f.html
+10. Wikipedia: Introduction to Fisher's Iris Data Set.
+Accessed online at: https://en.wikipedia.org/wiki/Iris_flower_data_set
+11. https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+12. https://datahub.io/machine-learning/iris
+13. http://statweb.stanford.edu/~jtaylo/courses/stats202/visualization.html
+14. https://rpubs.com/nandong/imlp-ch1-iris - Introduction to Iris Data set by rPubs.
+15. Tutorialspoint (2019) AI with Python – Supervised Learning: Classification.
+Accessed online at: https://www.tutorialspoint.com/artificial_intelligence_with_python/artificial_intelligence_with_python_supervised_learning_classification.html
+16. Tutorialspoint (2019) Python - Correlation.
+https://www.tutorialspoint.com/python/python_correlation.html
+17. Stack Exchange (2019)
+Accessed online at: https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
+18. Programiz (2019) Reading CSV Files in Python
+https://www.programiz.com/python-programming/reading-csv-files
+
