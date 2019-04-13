@@ -78,6 +78,8 @@ Accessed online at: https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809
 6.	UC Irvine Machine Learning Repository: Iris data set.
 https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 https://archive.ics.uci.edu/ml/datasets/iris
+7. Datahub (2019) Machine Learning: Iris.
+https://datahub.io/machine-learning/iris
 7. I. Olkin and A.R. Sampson(2001) Multivariate Analysis: Overview, in International Encyclopedia of the Social & Behavioral Sciences.
 Accessed online at: https://www.sciencedirect.com/topics/medicine-and-dentistry/multivariate-analysis
 8. Excel File showing Iris Data Set for comparison
@@ -87,7 +89,6 @@ accessed online at: https://rstudio-pubs-static.s3.amazonaws.com/205883_b658730c
 10. Wikipedia: Introduction to Fisher's Iris Data Set.
 Accessed online at: https://en.wikipedia.org/wiki/Iris_flower_data_set
 11. https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
-12. https://datahub.io/machine-learning/iris
 13. http://statweb.stanford.edu/~jtaylo/courses/stats202/visualization.html
 14. https://rpubs.com/nandong/imlp-ch1-iris - Introduction to Iris Data set by rPubs.
 15. Tutorialspoint (2019) AI with Python – Supervised Learning: Classification.
