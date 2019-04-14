@@ -1,5 +1,6 @@
 from statistics import mean, median, mode, stdev
 
+
 avg_value = mean(somelist)
 median_value = median(somelist)
 mode_value = mode(somelist)

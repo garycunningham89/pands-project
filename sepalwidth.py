@@ -1,5 +1,5 @@
 import csv
-
+#https://www.programiz.com/python-programming/reading-csv-files
 csv.register_dialect('myDialect',
 delimiter = ',',
 quoting=csv.QUOTE_ALL,
