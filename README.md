@@ -34,7 +34,9 @@ The multivariate analysis type utilized by Fisher allows a range of measurement 
 
 2. Body
 
-THe research allowed consultations various studies to aptly gain an understanding of Fisher, his Iris data set and the importance in it as a tool for analysis. There are vast articles citing the Iris data set but I first went back to Fisher's initial 1936 study to gain an understanding of what he was trying to portray. The importance of the man himself was researched in Yates and Mather(1963) biography of him and then, with a basis to work upon, multiple articles and analysis were consulted to understand its importance. Use of this data set can allow experiences with machine learning, data mining and data analysis as a whole.  
+THe research allowed consultations of various studies to aptly gain an understanding of Fisher his Iris data set and the importance in it as a tool for analysis. There are vast articles citing the Iris data set but I first went back to Fisher's initial 1936 study to gain an understanding of what he was trying to portray. The importance of the man himself was researched in Yates and Mather(1963) biography of him and then, with a basis to work upon, multiple articles and analysis were consulted to understand its importance. Use of this data set can allow experiences with machine learning, data mining and data analysis as a whole.
+
+The analysis allowed portray different variations as seen in sepalwidth.. etc. These scripts were constructed with the help of articles... . , lecture content as part of the course and with further self directed learning from Python.org, w3schools.com and other websites for improvement of programming and scripting such as programiz, tutorialspoint and stackoverflow as shown in the reference list below.
 
 3. Conclusion(s)/Discussion
 4. Appendix/Appendices
@@ -75,6 +77,8 @@ https://www.python.org/
 https://www.w3schools.com
 3. Python by Programiz Tutorials.
 https://www.programiz.com/
+4. Stack Overflow - Various queries for comparison and improving code output.
+https://stackoverflow.com
 4.	GMIT. Quality assurance framework.
 https://www.gmit.ie/general/quality-assurance-framework
 5. Wikipedia: Introduction to Fisher's Iris Data Set.
