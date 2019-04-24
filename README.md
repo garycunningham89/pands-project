@@ -36,37 +36,16 @@ The multivariate analysis type utilized by Fisher allows a range of measurement 
 
 THe research allowed consultations of various studies to aptly gain an understanding of Fisher his Iris data set and the importance in it as a tool for analysis. There are vast articles citing the Iris data set but I first went back to Fisher's initial 1936 study to gain an understanding of what he was trying to portray. The importance of the man himself was researched in Yates and Mather(1963) biography of him and then, with a basis to work upon, multiple articles and analysis were consulted to understand its importance. Use of this data set can allow experiences with machine learning, data mining and data analysis as a whole.
 
-The analysis allowed portray different variations as seen in sepalwidth.. etc. These scripts were constructed with the help of articles... . , lecture content as part of the course and with further self directed learning from Python.org, w3schools.com and other websites for improvement of programming and scripting such as programiz, tutorialspoint and stackoverflow as shown in the reference list below.
+The analysis allowed portray different variations as seen in sepalwidth.. etc. These scripts were constructed with the help of articles... . , lecture content as part of the course and with further self directed learning from Python.org, w3schools.com and other websites for improvement of programming and scripting such as programiz, tutorialspoint and stackoverflow as shown in the reference list below. The iris data set was imported firstly from the UC Irvine Machine Learning Repisotory and attempts were made to manipulate the data set using Python by creating outputs of the columns, rows, etc. and testing the max, min, mean, etc. The was a preliminary testing to try and gain an understanding of the data set while various scripts learned from previous. There were various studies consulted such as Kaggle, Dickerson, etc. as contained below to view their approach to such a study. My own approach was as follows:
+
+1. Gain an understanding of Fisher, his Iris Data Set and its importance.
+2. Extract and test the data set using Python to see the outputs and attempt to further understand why this data set is so popular.
+3. Use Python to manipulate the data set for outputting various analysis using programs to output data, tables, graphs, etc.
+4. Use my own outputs to explain Fishers Iris Data Set and its findings as accurately as possible.
+5. Conclude these outputs with an explanation as to why Fishers Iris Data Set is so important and prevalent for data analysis now.
 
 3. Conclusion(s)/Discussion
 4. Appendix/Appendices
-
-Content
-1. Research background information about the data set and write a summary about
-it.
-
-
-
-2. Keep a list of references you used in completing the project.
-
-See above.
-
-3. Download the data set and write some Python code to investigate it.
-
-Cross check the excel and confirm data set for next stage.
-
-4. Summarize the data set by, for example, calculating the maximum, minimum and
-mean of each column of the data set. A Python script will quickly do this for you.
-
-Summarize using python when fully understood.
-
-5. Write a summary of your investigations.
-
-Summarize in written form the understanding after doing 1-4.
-
-6. Include supporting tables and graphics as you deem necessary 
-
-Tables to be included also.
 
 
 Reference List:
