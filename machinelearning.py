@@ -1,16 +1,11 @@
-#https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+#Code sourced from Kaggle's website at: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-#sns.set_palette('husl')
-#matplotlib inline
-
-from sklearn import metrics
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-
+#Importing the preloaded Anaconda Packages for outputs of the iris_csv.csv file later.
+#Learning and understanding of each package from class tutorials and each respective websites tutorials.
+#The code above had Sckit Learn package data analysis but at this time these were removed from analysis.
 data = pd.read_csv('iris_csv.csv')
 data.head()
 data.info()

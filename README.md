@@ -1,23 +1,3 @@
-Respository for final project for Programming and Scripting module as part of Higher Diploma in Data Analytics.
-Points of note:
-Minimum Viable Project.
-The minimum standard for this project is a GitHub repository containing a README
-and a Python script. The README should contain a summary of the data set and your
-investigations into it. It should also clearly document how to run the Python code you
-used to investigate the data set, and what that code does. Furthermore, it should list
-all references used in completing the project.
-A better project will be well organised and contain detailed explanations. The analysis
-will be well conceived, and examples of interesting analyses that others have pursued
-based on the data set will be discussed.
-Note that the point of this project is to use Python. You may use any Python
-libraries that you wish, whether they have been discussed in class or not. You should
-not be thinking of using spreadsheet software like Excel to do your calculations. 
-
-Creator: R.A. Fisher 
-Donor: Michael Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)
-
-https://archive.ics.uci.edu/ml/datasets/iris
-
 Structure
 
 1. Introduction
@@ -44,10 +24,13 @@ The analysis allowed portray different variations as seen in sepalwidth.. etc. T
 4. Use my own outputs to explain Fishers Iris Data Set and its findings as accurately as possible.
 5. Conclude these outputs with an explanation as to why Fishers Iris Data Set is so important and prevalent for data analysis now.
 
-The primary resources for data analysis of the Iris dataset are Pyhton programming language through Anaconda, Visual Studio Code, Python.org tutorials and w3schools tutorials with packages such as pandas, seaborn, matplotlib and numpy utilized alongside various other compositions regarding the same. The SciKit Learn package on Iris dataset was briefly consulted but for the purpose of this esassignment the aforementioned packages were used instead. 
+The primary resources for data analysis of the Iris dataset are Pyhton programming language through Anaconda, Visual Studio Code, Python.org tutorials and w3schools tutorials with packages such as pandas, seaborn, matplotlib and numpy utilized alongside various other compositions regarding the same. The Scikit Learn package were witnessed on various sources but the use has been limited for this project but will be considered at a later date.
 
 The dataset was tested through various means while gaining understanding through many of the online sources mentioned in the reference. The finally with a consistent assessment of the dataset was portrayed in a combined python code, titled Irisfinalproject.py. The primary data analysed was .............
 
+
+
+https://archive.ics.uci.edu/ml/datasets/iris
 
 3. Conclusion(s)/Discussion
 4. Appendix/Appendices
@@ -61,6 +44,10 @@ https://www.python.org/
 https://www.w3schools.com
 3. Python by Programiz Tutorials.
 https://www.programiz.com/
+4. Pandas: Python Data Analysis Library.
+https://pandas.pydata.org.
+4. NumPy.
+http://www.numpy.org
 4. Stack Overflow - Various queries for comparison and improving code output.
 https://stackoverflow.com
 4.	GMIT. Quality assurance framework.

@@ -20,3 +20,5 @@ with open('iris_csv.csv', 'r') as f:
     reader = csv.reader(f, dialect='myDialect')
     for row in reader:
         print(row[x])
+#Giving an input to research to dissect each variable separately, be it Sepal Length, Sepal Width, Petal Length and Petal Width.
+#Allowing the user input 0, 1, 2, 3  for each respective row in the data set.
