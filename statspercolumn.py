@@ -1,18 +1,13 @@
 #The following templates for statistic analysis adapted from python.org tutorials were 
 #used as a basis for analysis and adapted for use with the Iris Dataset.
 #from statistics import mean, median, mode, stdev
-#avg_value = mean(somelist)
-#median_value = median(somelist)
-#mode_value = mode(somelist)
-#std_dev = stdev(somelist)
-#max_value = max(somelist)
-#min_value = min(somelist)
-#print(std_dev)
-#print(avg_value)
-#print(median_value)
-#print(mode_value)
-#print(max_value)
-#print(min_value)
+#avg_value = mean(InputList)
+#median_value = median(InputList)
+#mode_value = mode(InputList)
+#std_dev = stdev(InputList)
+#max_value = max(InputList)
+#min_value = min(InputList)
+#Input list is predefined and the print function outputs each of the above as seen below.
 
 import pandas as pd
 #Utilizing the csv file used from the Tutorials point website at: https://www.tutorialspoint.com/python/python_processing_csv_data.htm
@@ -47,7 +42,7 @@ std_dev2 = stdev(data[0:150][pl])
 std_dev3 = stdev(data[0:150][sw])
 std_dev4 = stdev(data[0:150][sl])
 print(std_dev1, std_dev2, std_dev3, std_dev4)
-#Using the data to the standard deviation of each variable in the data set.
+#Using the data to the standard deviation of each row in the data set.
 max_value1 = max(data[0:150][pw])
 max_value2 = max(data[0:150][pl])
 max_value3 = max(data[0:150][sw])

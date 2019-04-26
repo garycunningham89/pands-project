@@ -12,6 +12,13 @@ Analysis Type: Multivariate
 
 The multivariate analysis type utilized by Fisher allows a range of measurement techniques on this data set as there are more than one variable and those variables are correlated (Olkin and Sampson, 2001). The intention of this project is to firstly, upload the data set, compile various calculations (using the Python programming language) of various variables within the data set and summarize the results with the aid of tables and diagrams, where required, to attempt to explain its usefulness and its ties to machine learning and data analysis overall.
 
+
+ROW
+VARIABLE
+DATASET
+MACHINE LEARNING
+DATA ANALYSIS
+
 2. Body
 
 THe research allowed consultations of various studies to aptly gain an understanding of Fisher his Iris data set and the importance in it as a tool for analysis. There are vast articles citing the Iris data set but I first went back to Fisher's initial 1936 study to gain an understanding of what he was trying to portray. The importance of the man himself was researched in Yates and Mather(1963) biography of him and then, with a basis to work upon, multiple articles and analysis were consulted to understand its importance. Use of this data set can allow experiences with machine learning, data mining and data analysis as a whole.
@@ -26,14 +33,25 @@ The analysis allowed portray different variations as seen in sepalwidth.. etc. T
 
 The primary resources for data analysis of the Iris dataset are Pyhton programming language through Anaconda, Visual Studio Code, Python.org tutorials and w3schools tutorials with packages such as pandas, seaborn, matplotlib and numpy utilized alongside various other compositions regarding the same. The Scikit Learn package were witnessed on various sources but the use has been limited for this project but will be considered at a later date.
 
+The first intended outputs used in the Python code were the statistical data extracted from the data set as a numeric analytical tool. The mode, mean, min, max and range of sizes of each variable contained within the data set were compiled and the following was the outputs of the codes as contained in the script ..... 
+
+TABLE OF OUTPUTS.
+
+RESULTS.
+
+The next analysis was intended to by a more in depth look at the Iris Dataset utilizing various graphs and outputs using the pandas, seabork, matplotlib etc. as mentioned above. The graphical analysis of the dataset allows for a better understanding as the visual aspect allows the reader gain an understanding of the differences in the variables and why this is important or interesting.
+
+The chronological python script outputs are..........
+
+
+RESULTS
+
+SUMMARY AND CONCLUSION
 The dataset was tested through various means while gaining understanding through many of the online sources mentioned in the reference. The finally with a consistent assessment of the dataset was portrayed in a combined python code, titled Irisfinalproject.py. The primary data analysed was .............
 
 
 
-https://archive.ics.uci.edu/ml/datasets/iris
-
-3. Conclusion(s)/Discussion
-4. Appendix/Appendices
+Appendices
 
 
 Reference List:
