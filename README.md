@@ -44,6 +44,11 @@ The analysis allowed portray different variations as seen in sepalwidth.. etc. T
 4. Use my own outputs to explain Fishers Iris Data Set and its findings as accurately as possible.
 5. Conclude these outputs with an explanation as to why Fishers Iris Data Set is so important and prevalent for data analysis now.
 
+The primary resources for data analysis of the Iris dataset are Pyhton programming language through Anaconda, Visual Studio Code, Python.org tutorials and w3schools tutorials with packages such as pandas, seaborn, matplotlib and numpy utilized alongside various other compositions regarding the same. The SciKit Learn package on Iris dataset was briefly consulted but for the purpose of this esassignment the aforementioned packages were used instead. 
+
+The dataset was tested through various means while gaining understanding through many of the online sources mentioned in the reference. The finally with a consistent assessment of the dataset was portrayed in a combined python code, titled Irisfinalproject.py. The primary data analysed was .............
+
+
 3. Conclusion(s)/Discussion
 4. Appendix/Appendices
 
@@ -77,8 +82,12 @@ Accessed online at: https://www.sciencedirect.com/topics/medicine-and-dentistry/
 Accessed online at: : https://www.saedsayad.com/datasets/Iris.xls
 7. Dickerson, K. (2016) Fisher's Irises.
 Accessed online at: https://rstudio-pubs-static.s3.amazonaws.com/205883_b658730c12d14aa6996fe2f6c612c65f.html
-8. Kaggle (2019) Machine Learning with Iris Dataset.
+8. Kaggle (2019) Iris Dataset - Exploratory Data Analysis.
+Accessed online at: https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+9. Kaggle (2019) Machine Learning with Iris Dataset.
 Accessed online at: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+10. Sci-kit Learn (2019) The Iris Dataset.
+Accessed online at: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 9. Taylor, J. (2011) Stats 202: Data Mining. Stanford Univeristy.
 Accessed online at: http://statweb.stanford.edu/~jtaylo/courses/stats202/visualization.html
 10. Dong, N. (2019) RPubs: Introduction 1 - Iris Dataset.
