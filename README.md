@@ -114,28 +114,21 @@ All graphs showed similar outcomes to the scatter plot graphs above highlighting
 
 The results section is going to be split similar to the file naming as in univariate analysis and multivariate analysis. Within each the species, Iris, and the data Fisher composed will be assessed to see its importance in defining the speices and its usefulness in data analysis. 
 The univariate aspect deals with the fact there are is one varible for study and that is the size attribute. This is subdivided into length and width of both the flowers petal and sepal and all data was recorded. Upon undertaking the research it was clear with the help of statistics and graphs that the length and width of the petal and sepal could allow data become useful in identifying differences among a species or a system or anything that has a defining feature or defining features which can be traced and tracked for analysis. The following were the results or observations of the univariate analysis:
-* The sepal length
-* The sepal width
-* The petal length
-* The petal width
+* The sepal length; this was not a good indicator with the deviation from the mean not indicating wide ranging differences.
+* The sepal width - arguably the most undefinable of all the attributes in this study. The deviation was small and ditribution from the mean was much smaller than all the rest, allowing too many simillarities.
+* The petal length - the petal length was a great indicator for differences among attributes for the 150 counts of flowers as its results were wide ranging and easily distinguishable.
+* The petal width - similarly the petal width allow for easy definition from one to the other inputs and there were vast differences across the range of inputs.
 
-In the pairplotpetal we can see that petal length is much varied in all 150 data inputs and that these are further distinguished by class. The iris setosa has much smaller petal than the versicolor and virginica and can be easily identified. The differences in the versicolor and virginica are also visible on the graph but not with the same definition. 
+The multivariate analysis of this dataset a much greater understanding of the data set and of data analysis as a whole, from its importance in wide ranging data inputs to the difference in attributes gathered for comparison and more accurately results. The same data was used as within the univariate analysis but the extra variable of species type allowed a more wide ranging result structure which intends to be explained as follows;
+* The sepal length; this was not a good indicator with the deviation from the mean not indicating wide ranging differences.
+* The sepal width - we can see with sepal width and 
+* The petal length - In all graphs we can see that petal length is much varied in all 150 data inputs and that these are further distinguished by class. The iris setosa has much smaller petal than the versicolor and virginica and can be easily identified. The differences in the versicolor and virginica are also visible on the graph but not with the same definition. 
+* The petal width - similarly the petal width allow for easy definition from one to the other inputs and there were vast differences across the range of inputs.
 
-The next analysis was intended to by a more in depth look at the Iris dataset utilizing various graphs and outputs using the pandas, seabork, matplotlib etc. as mentioned above. The graphical analysis of the dataset allows for a better understanding as the visual aspect allows the reader gain an understanding of the differences in the variables and why this is important or interesting.
-* The sepal length
-* The sepal width
-* The petal length
-* The petal width
-
-Unavariate analysis - which is best for describing differences in variance
-Multivatiat data analysis
-#########Observations - Using sepal - can distinguish setosa flowers. Versicolor and Virginica not easily distinguished. 
-#########using petal is the same but versicolor and virginica are slightly more linearly separable than sepal.
-##################petal length and width are best identifiers of types of flowers. setosa very different. others some overlap.
-##########univariate analysis. pl > pw > sl > sw going by graphs
 
 4. SUMMARY AND CONCLUSION
 
+In conclusion the petal length and width were much better identifiers for species differences as contained in this data set. However with the added edge of class difference it was visible that the setosa was much different from the versicolor and virginica and was linearly separable and versicolor and virginica has smaller differences but with greater datasets could have been easier distinguished from one another.
 The python programming language and the various aspects of its capabilities allowed a more accurate study of this dataset than merely looking at the data in its original form. Data analysis of the data set showed that with manipulation of various aspects of a studied thing or species as the case may be, changes or differences are easily identifiable and separable from each other. Allowing for this data analysis through statistics in a living being through his Iris data set, it is easily understood why Fisher was highly regarded in his field for statistics and why he is still being widely used today. The Iris species was an analyzable species in a time when many were not monitoring similar attributes and it can be used a basis or a test case for greater monitoring of data for learning or as a database for mining for many new data analysts.
 5. APPENDICES
 
