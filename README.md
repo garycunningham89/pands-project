@@ -27,11 +27,11 @@ ii) Project File Names and Description:
 + Other attachments are listed in Appendices section at end of ReadMe. 
 Within each .py file there are notes on inputs denoted with "#" so as not to be included in the python script but to attempt to explain the process and the reasoning behind it for the reader.
 Project ReadMe Structure
-    1. Introduction
-    2. Analysis
-    3. Results
-    4. Conclusion
-    5. Appendices
+1. Introduction
+2. Analysis
+3. Results
+4. Conclusion
+5. Appendices
 
 1. INTRODUCTION
 Ronald Aylmer Fisher's Iris data set has been consulted in a vast range of articles and disciplines as noticeable during initial research. Ronald Fisher, himself, was an English statistician firstly, with intrinsic ties to the studies of genetics, eugenics and biology as a whole who compiled the Iris Data Set as per this study (Yates and Mather, 1963). His studies have given him the affectionate title of "Father of Statistics" by some and he believed his various studies allowed greater ties between mathematics and biology as statistics, especially, are useful while trying to explain the various phenomena of science (Yates and Mather, 1963). His own 1936 study titled "The use of multiple measurements in taxonomic problems" portrayed data on three different Iris flower species;- Iris Setosa, Iris Virginica and Iris Versicolor. The data compiled comprised of four features of each species, i.e. sepal length, sepal width, petal length and petal width. The total flowers contained in the data set were 150, split into 50 of each of the three species. All of the attribute information was measured in cm. The data set characteristics are summarized in the following list (Fisher, 1936, adapted from the UCI Machine Learning Repository, Iris data set):
@@ -97,6 +97,10 @@ The dataset was tested through various means while gaining understanding through
 
 Unavariate analysis - which is best for describing differences in variance
 Multivatiat data analysis
+#########Observations - Using sepal - can distinguish setosa flowers. Versicolor and Virginica not easily distinguished. 
+#########using petal is the same but versicolor and virginica are slightly more linearly separable than sepal.
+##################petal length and width are best identifiers of types of flowers. setosa very different. others some overlap.
+##########univariate analysis. pl > pw > sl > sw going by graphs
 
 4. SUMMARY AND CONCLUSION
 
@@ -125,7 +129,11 @@ PRIMARY ISSUES:
 - Correctly inputting and learning of the Python programming language used for analysis.
 - Learning, testing and editing code and readme file continuously while rememebering to add sources for newly learned material.
 - Time management and accuracy of outputs.
-- FutureWarning Error with graph outputs in graphicaldataanalysis.py file. Could not accurate resolution but contributors on StackOverflow have stated similar output error messages. Thankfully it did not affect the flow of the graphs and it seems to be a software issue regarding the packages imported for the outputs used on the machine.
+- FutureWarning Error with graph outputs in multivariatedataanalysis.py file as follows:
+
+* C:\Users\Owner\Anaconda3\lib\site-packages\scipy\stats\stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+* return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval.
+Could not find an accurate resolution but contributors on StackOverflow have stated similar output error messages. Thankfully it did not affect the flow of the graphs and it seems to be a software issue regarding the packages imported for the outputs used on the machine.
 
 REFERENCE LIST:
 
