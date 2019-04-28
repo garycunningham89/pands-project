@@ -1,4 +1,4 @@
-Gary Cunningham - G00376467.
+Gary Cunningham - GMIT - G00376467.
 Programming and Scripting Final Project - Submission on 28/04.19
     Project Structure
     1. Introduction
