@@ -130,6 +130,7 @@ The multivariate analysis of this dataset a much greater understanding of the da
 
 In conclusion the petal length and width were much better identifiers for species differences as contained in this data set. However with the added edge of class difference it was visible that the setosa was much different from the versicolor and virginica and was linearly separable and versicolor and virginica has smaller differences but with greater datasets could have been easier distinguished from one another.
 The python programming language and the various aspects of its capabilities allowed a more accurate study of this dataset than merely looking at the data in its original form. Data analysis of the data set showed that with manipulation of various aspects of a studied thing or species as the case may be, changes or differences are easily identifiable and separable from each other. Allowing for this data analysis through statistics in a living being through his Iris data set, it is easily understood why Fisher was highly regarded in his field for statistics and why he is still being widely used today. The Iris species was an analyzable species in a time when many were not monitoring similar attributes and it can be used a basis or a test case for greater monitoring of data for learning or as a database for mining for many new data analysts.
+
 5. APPENDICES
 
 GRAPH (.png) FILES: 
