@@ -19,7 +19,15 @@ print(data[pw].describe())
 #Separating each column using the describe functions.
 data.hist()
 plt.show()
-# Using the data file with matplotlib function for plotting a a histogram.
+# Using the data file with matplotlib hist() function for plotting a histogram.
+
+data.plot(kind='scatter', x = 'sepallength', y = 'sepalwidth')
+plt.show()
+data.plot(kind='scatter', x = 'petallength', y = 'petalwidth')
+plt.show()
+# Using the matplotlib plot() function for plotting diagrams. The format or 'kind' is defined, e.g. scatter, and the x and y axises are labelled.
+#Some code adapted from Kaggle's website at: https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+
 #Utilizing the csv file used from the Tutorials point website at: https://www.tutorialspoint.com/python/python_processing_csv_data.htm
 
 #The following templates for statistic analysis adapted from python.org tutorials were 
