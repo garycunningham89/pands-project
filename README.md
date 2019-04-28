@@ -26,6 +26,7 @@ ii) Project File Names and Description:
 + multivariatedataanalysis.py - Python script file for outputting the analysis of the Iris dataset in various visual graphs in attempt to explain and summarise it.
 + Other attachments are listed in Appendices section at end of ReadMe. 
 Within each .py file there are notes on inputs denoted with "#" so as not to be included in the python script but to attempt to explain the process and the reasoning behind it for the reader.
+
 Project ReadMe Structure
 1. Introduction
 2. Analysis
@@ -84,16 +85,47 @@ dataset) The range of petal widths sizes in cm is 0.10-2.50, with a standard dev
 
 The other script included in univariatedataanalysis.py shown in the outputted scatterplotpetal.png and scatterplotsepal.png files in this file show similar observations. The graph plots both aspects, i.e. width and length, of both the petal and sepal data on the same graph. The scatterplot petal shows a wider ranging graph with the data must more identifiable and separable from each other showing variance amongst each flower studied. Alternatively, the scatter plot graph on sepal, does showed variance but not to the same extent and the differences are not as easily identifiable and separable as the length and width for the petal data. There were various tests done in the univariatedataanalysis.py file for other statistics, mode, median and so on and they are contained preceded by a # in the file itself.
 
-The third python file used in the project was the multivariatedataanalysis.py file which allowed the greatest amount of analysis with respect to the Fisher Iris data set. The data was again imported using pandas and various others such as seaborn, matplotlib and numpy. The previous paragraph showed a univariate analysis using the petal lengths and widths and the sepal lengths and widths to distinguish the various data but this file intends to increase the range of identifier capabilities by analysing the same factors but separating them into the 3 Iris classes as part of Fishers study, Setosa, Virginica, and Vertosa
+The third python file used in the project was the multivariatedataanalysis.py file which allowed the greatest amount of analysis with respect to the Fisher Iris data set. The data was again imported using pandas and various others such as seaborn, matplotlib and numpy. The previous paragraph showed a univariate analysis using the petal lengths and widths and the sepal lengths and widths to distinguish the various data but this file intends to increase the range of identifier capabilities by analysing the same factors but separating them into the 3 Iris classes as part of Fishers study, Setosa, Versicolor and Virginica. The first section of the python file outputs a combined graph of all 4 attributes which is saved in the file as plotclasses.png. These are combined output of distribution plots and colour coordinated scatter plots similar to those witnessed in the univariateanalysis.py file above. The colour coordination denotes the 3 classes, Setosa, Versicolor and Virginica. The plotclasses.png is useful for overview data analysis but requires further dissection to see the intrinsic differences between the 3 classes with regards sepal length, sepal width, petal length and petal width.
 
+The scatterplotclassespetal.png and the scatterplotclassessepal.png which are generated from the second part of the python code contained within multivariatedataanalysis.py are the same as the scatterplotpetal.png and scatterplotsepal.png as seen previously except the data is now colour coordinated to distinguish which class each input is assigned to. The code for this is as follows, with some explanations attached;
+* sns.set_style("whitegrid") 
+* sns.FacetGrid(iris, hue = "class", height=4).map(plt.scatter, "sepallength", "sepalwidth").add_legend()
+* plt.show() #Using seaborn as sns to graph the "class" and sepal length and sepal width.
+* sns.set_style("whitegrid")
+* sns.FacetGrid(iris, hue = "class", height=4).map(plt.scatter, "petallength", "petalwidth").add_legend()
+* plt.show() #Using seaborn as sns to graph the "class" and petal length and petal width.
+
+The package seaborn was used for these graphs which show the data within the graph in three colours blue, orange and green denoting setosa, versicolor and virginica respectively. As witnessed with the graphs earlier the inputs for tne petal length and width and much more dipersed than that of the sepal width and length. Within the scatterplotclassespetal.png we see a distinct gap in sizes amongst the species and now the colour coordination and legend within the analysis inform that the setosa is visibly smaller in length and width and is contained in the bottom right quartile of the graph separated from the other two classes versicolor and virginica. Similarly while reviewing the scatter plot on sepal length and width in the scatterplotclassessepal.png file, with the class colour differentials we can maintain that the sizes are not as distinct but the Iris setosa sepal width and length data inputs are visible in the top left hand side of the graph separated from the other classes of the irises, showing that the setosa species from the dataset is linearally separable from the versicolor and virginica. What is more noticeable as a defining feature of different classes within the same species is that versicolor and virginica are not easily separable in the scatterplot for sepal width vs length but there is some definition of separation in the petal length and width between them with virginica having the longest and widest petals and the farthest deviation from the mean.
+
+To further analyse the data for Fisher Iris data set there were other graphical analyses compiled within the multivaraitedataanalysis.py file within this project. It was decided to further divide the four attribute into sepal length, sepal width, petal length and petal with pyhton coding to analyse differential features of each in graphical form with colour coding allowing for identification of the different classes within Fishers data set, setosa, virginica and versicolor. The graph style chosen with the help of the matplotlib and seaborn tutorials, class content and some of the various resources mentioned in the reference list, was both a single ditribution graph for each attribute and a single violinplot for each also. The files are all saved in this project as png files and they show each attribute in separate graphs with the data for each class collour coordinated to show differences. The code was used with the Seaborn and Matplotlib packages and it allowed graph both the distribution plots as follows:
+Distribution Plot code: 
+* sns.set_style("whitegrid") #setting the style as whitegrid as seen in tutorials.
+* sns.FacetGrid(iris, hue = "class", height=4).map(sns.distplot, "ATTRIBUTE").add_legend())
+* plt.show() #using matplotlib function plt.show() to output and add_legend() to distinguish classes.
+
+* sns.violinplot(y='class', x='ATTRIBUTE', data=iris, inner='quartile') #using data = iris for the imported CSV file.
+* plt.show() # Using plt.show() to output graph.
+
+The ATTRIBUTE word in both it changeable to output with petal length/width or sepal length/width.
+
+All graphs showed similar outcomes to the scatter plot graphs above highlighting the difference in both the petal and sepal, for their separate characteristics, length and width, as identifiers in species differentials as Iris flowers. These differentials among the 150 strong data set are then added to a multivariate analysis type where a sub division of class of Iris species is added to identify or analyses differences from the data inputted. Some of the results of the analysis will be discussed in the next section.
 
 3. RESULTS
 
+The results section is going to be split similar to the file naming as in univariate analysis and multivariate analysis. Within each the species, Iris, and the data Fisher composed will be assessed to see its importance in defining the speices and its usefulness in data analysis. 
+The univariate aspect deals with the fact there are is one varible for study and that is the size attribute. This is subdivided into length and width of both the flowers petal and sepal and all data was recorded. Upon undertaking the research it was clear with the help of statistics and graphs that the length and width of the petal and sepal could allow data become useful in identifying differences among a species or a system or anything that has a defining feature or defining features which can be traced and tracked for analysis. The following were the results or observations of the univariate analysis:
+* The sepal length
+* The sepal width
+* The petal length
+* The petal width
+
+In the pairplotpetal we can see that petal length is much varied in all 150 data inputs and that these are further distinguished by class. The iris setosa has much smaller petal than the versicolor and virginica and can be easily identified. The differences in the versicolor and virginica are also visible on the graph but not with the same definition. 
+
 The next analysis was intended to by a more in depth look at the Iris dataset utilizing various graphs and outputs using the pandas, seabork, matplotlib etc. as mentioned above. The graphical analysis of the dataset allows for a better understanding as the visual aspect allows the reader gain an understanding of the differences in the variables and why this is important or interesting.
-
-The chronological python script outputs are..........
-
-The dataset was tested through various means while gaining understanding through many of the online sources mentioned in the reference. The finally with a consistent assessment of the dataset was portrayed in a combined python code, titled Irisfinalproject.py. The primary data analysed was .............
+* The sepal length
+* The sepal width
+* The petal length
+* The petal width
 
 Unavariate analysis - which is best for describing differences in variance
 Multivatiat data analysis
@@ -104,7 +136,7 @@ Multivatiat data analysis
 
 4. SUMMARY AND CONCLUSION
 
-
+The python programming language and the various aspects of its capabilities allowed a more accurate study of this dataset than merely looking at the data in its original form. Data analysis of the data set showed that with manipulation of various aspects of a studied thing or species as the case may be, changes or differences are easily identifiable and separable from each other. Allowing for this data analysis through statistics in a living being through his Iris data set, it is easily understood why Fisher was highly regarded in his field for statistics and why he is still being widely used today. The Iris species was an analyzable species in a time when many were not monitoring similar attributes and it can be used a basis or a test case for greater monitoring of data for learning or as a database for mining for many new data analysts.
 5. APPENDICES
 
 GRAPH (.png) FILES: 

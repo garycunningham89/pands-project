@@ -39,15 +39,14 @@ plt.show() # Using plt.show() to output graph.
 #Using the identifier, hue = class, setting the height and plotting a distplot with sns.
 #Adding legends of the classes on both graphs using add_legend() for easier identification.
 #violin
-g = sns.violinplot(y='class', x='sepallength', data=iris, inner='quartile')
+sns.violinplot(y='class', x='sepallength', data=iris, inner='quartile')
 plt.show() # Using plt.show() to output graph.
-g = sns.violinplot(y='class', x='sepalwidth', data=iris, inner='quartile')
+sns.violinplot(y='class', x='sepalwidth', data=iris, inner='quartile')
 plt.show() # Using plt.show() to output graph.
-g = sns.violinplot(y='class', x='petallength', data=iris, inner='quartile')
+sns.violinplot(y='class', x='petallength', data=iris, inner='quartile')
 plt.show() # Using plt.show() to output graph.
-g = sns.violinplot(y='class', x='petalwidth', data=iris, inner='quartile')
+sns.violinplot(y='class', x='petalwidth', data=iris, inner='quartile')
 plt.show() # Using plt.show() to output graph.
-print
 #Using seaborn as sns and outputting a violin plot graph as sns.violinplot()
 #Using the y = class to make it the y axis, x = sepal or petal lengths/widths, the data to come from iris data set.
 #Plotting them in quartile layout.
