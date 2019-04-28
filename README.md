@@ -120,8 +120,8 @@ The univariate aspect deals with the fact there are is one varible for study and
 * The petal width - similarly the petal width allow for easy definition from one to the other inputs and there were vast differences across the range of inputs.
 
 The multivariate analysis of this dataset a much greater understanding of the data set and of data analysis as a whole, from its importance in wide ranging data inputs to the difference in attributes gathered for comparison and more accurately results. The same data was used as within the univariate analysis but the extra variable of species type allowed a more wide ranging result structure which intends to be explained as follows;
-* The sepal length; this was not a good indicator with the deviation from the mean not indicating wide ranging differences.
-* The sepal width - we can see with sepal width and 
+* The sepal length; the added variable allowed the sepal become an identifier of differences between the iris species classes and the setosa species was visibly different from the versicolor and virginica species as seen in the various graphs attached.
+* The sepal width - the added variable allowed the sepal become an identifier of differences between the iris species classes and the setosa species was visibly different from the versicolor and virginica species as seen in the various graphs attached.
 * The petal length - In all graphs we can see that petal length is much varied in all 150 data inputs and that these are further distinguished by class. The iris setosa has much smaller petal than the versicolor and virginica and can be easily identified. The differences in the versicolor and virginica are also visible on the graph but not with the same definition. 
 * The petal width - similarly the petal width allow for easy definition from one to the other inputs and there were vast differences across the range of inputs.
 
