@@ -1,7 +1,7 @@
 #Gary Cunningham - GMIT - G00376467.
 #Programming and Scripting Final Project - Submission on 28/04.19
-#Using pandas to view the complete table from a CSV file and then printing the data out in one output.
 import pandas as pd
+#Using Pandas to view the complete table from a CSV file and then printing the data out in one output.
 data = pd.read_csv('iris_csv.csv')
 #Using pandas to get some info on the table firstly.
 print(data) # shows entire data set. 
@@ -12,8 +12,9 @@ print(data.shape) #tells amounts of rows and columns in format: (rows, columns)
 print(data.columns) #gives output of the columns headers and the 'dtype'.
 print(data["class"].value_counts()) #separates the column class and gives output of each as well as the dtype as int64.
 #Adapted from Tutorials Point Processing CSV Data source accessed at: https://www.tutorialspoint.com/python/python_processing_csv_data.htm
+#Adapted from class content and Pandas website for the purpose of this project.
 
-#Learning how to import CSV files and export each column separately for analysis.
+#Testing and Learning how to import CSV files and export each column separately for analysis.
 #adapted from: https://www.programiz.com/python-programming/reading-csv-filesimport csv
 #how to open the dataset
 #with open('iris_csv.csv', 'r') as csvFile:

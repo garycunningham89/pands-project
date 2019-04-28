@@ -1,4 +1,4 @@
-Gary Cunningham - GMIT - G00376467.
+Gary Cunningham - G00376467.
 Programming and Scripting Final Project - Submission on 28/04.19
     Project Structure
     1. Introduction
@@ -55,9 +55,32 @@ e) Conclude these outputs with an explanation as to why Fishers Iris Data Set is
 
 The primary resources for data analysis of the Iris dataset are pyhton programming language through Anaconda, Visual Studio Code, Python.org tutorials and w3schools tutorials with packages such as pandas, seaborn, matplotlib and numpy utilized alongside various other compositions regarding the same. The Scikit Learn package were witnessed on various sources but the use has been limited for this project but will be considered at a later date.
 
-The first intended outputs used in the Python code was to input the iris_csv file and ouput it on python to show its 
+The first intended outputs used in the Python code was to input the iris_csv file and ouput it on python to show some of aspects of the file itself. Using the python file importdataset.py, after importing the file and naming it "data", the following commands were used and they include a small explanation of their intended outputs alongside them;
+>print(data) -shows entire data set. 
+>print(data.head()) - shows first 5 rows of the data set.
+>print(data.tail()) - shows last 5 rows of the dataset.
+>print(data.describe()) -gives a statistical summary of the dataset.
+>print(data.shape) - tells amounts of rows and columns in format: (rows, columns)
+>print(data.columns) - gives output of the columns headers and the 'dtype'.
+>print(data["class"].value_counts()) - separates the column class and gives output of each as well as the dtype as int64.
 
-were the statistical data extracted from the data set as a numeric analytical tool. The mode mean, min, max and range of sizes of each variable contained within the data set were compiled and the following was the outputs of the codes as contained in the script ..... 
+As well as these commands, there are a few other attempts, such as opening the file and outputting single columns, which were tested for learning purposes throughout the course of the project and are now marked with # so as to not be apart of the output itself. This file, importdataset.py in general only allows for summarising the data set as an introduction for the more emphasised files within hereafter. The command print(data.describe()) is arguably the most useful from this output as it grants the following output which will be discussed hereafter;
+       sepallength  sepalwidth  petallength  petalwidth
+count   150.000000  150.000000   150.000000  150.000000
+mean      5.843333    3.054000     3.758667    1.198667
+std       0.828066    0.433594     1.764420    0.763161
+min       4.300000    2.000000     1.000000    0.100000
+25%       5.100000    2.800000     1.600000    0.300000
+50%       5.800000    3.000000     4.350000    1.300000
+75%       6.400000    3.300000     5.100000    1.800000
+max       7.900000    4.400000     6.900000    2.500000
+
+The second file used in the project was the statisticaldataanalysis.py which was used to extract the csv file from from the data set and use Python code as a numeric analytical tool for explaining the dataset. The above table shows the count, mean, std(standard deviation), min and max with quarter percentile sizes in between for all features within the dataset. The sepallength, sepalwidth, petallength and petalwidth figures shown show a univariate analysis of the Fisher dataset, where there is no second varibale used in the analysis. Viewing the outputs above as well as the separation of each variable in the python file statisticaldataanalysis.py and the matplotlib generated histogram.png, which is as part of this project, the following was observed;
+a) The range of sepal lengths sizes in cm is 4.30-7.90, with a standard deviation of 0.828066 from the mean 5.843333. Viewing the histogram one can see that the count for sepal length is not too widely distributed among the count of 150 indicating the sepal length would not be a good indicator for variance amongst flower species in the Iris data set.
+b) The range of sepal widths sizes in cm is 2.00-4.40, with a standard deviation of 0.433594 from the mean 3.054. Viewing the histogram one can see that the count for sepal width is narrowly distributed among the count of 150 as most of the count are focused of the center of graph near the mean indicating the sepal width would be a difficult indicator for variance amongst flower species in the Iris data set.
+c) The range of petal lengths sizes in cm is 1.0-6.90, with a standard deviation of 1.764420 from the mean 3.758667. Viewing the histogram one can see that the count for petal length is widely distributed among the count of 150 indicating that petal length would be great indicator for variance amongst flower species in the Iris data set.
+d) The range of petal widths sizes in cm is 0.10-2.50, with a standard deviation of 0.763161 from the mean 1.198667. Viewing the histogram one can see that the count for petal width is narrowly distributed among the count of 150 as most of the count are focused of the center of graph near the mean indicating the petal width would be a difficult indicator for variance amongst flower species in the Iris data set.
+The mean, min, max and range of sizes of each variable contained within the data set were compiled and the following was the outputs of the codes as contained in the script
 
 TABLE OF OUTPUTS.
 
@@ -70,12 +93,18 @@ The chronological python script outputs are..........
 4. SUMMARY AND CONCLUSION
 The dataset was tested through various means while gaining understanding through many of the online sources mentioned in the reference. The finally with a consistent assessment of the dataset was portrayed in a combined python code, titled Irisfinalproject.py. The primary data analysed was .............
 
+Unavariate analysis - which is best for describing differences in variance
+
 5. APPENDICES
+
+FILES: 
+1. histogram.png
 
 PRIMARY ISSUES: 
 
 - Researching accurate components for all aspects of the project.
 - Correctly inputting and learning of the Python programming language used for analysis.
+- Learning, testing and editing code and readme file continuously while rememebering to add sources for newly learned material.
 - Time management and accuracy of outputs.
 - FutureWarning Error with graph outputs in graphicaldataanalysis.py file. Could not accurate resolution but contributors on StackOverflow have stated similar output error messages. Thankfully it did not affect the flow of the graphs and it seems to be a software issue regarding the packages imported for the outputs used on the machine.
 
